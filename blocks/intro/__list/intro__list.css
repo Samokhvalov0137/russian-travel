@@ -4,5 +4,6 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    
+    list-style: none;
+    padding-left: 0;
 }
