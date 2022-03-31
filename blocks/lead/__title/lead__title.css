@@ -1,5 +1,6 @@
 .lead__title{
     margin: 0 auto 32px;
+    max-width: 720px;
     font-weight: 900;
     font-size: 96px; /*calc( (100vw - 320px)/(1280 - 320) * (96 - 40) + 40px);*/
     line-height: 100px;
