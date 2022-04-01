@@ -7,7 +7,6 @@
 
   @media screen and (max-width: 608px) {
     .footer__row{
-        display: flex;
         flex-direction: column;
     }
 }

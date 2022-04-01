@@ -6,7 +6,6 @@
     grid-template-columns: repeat(auto-fit, minmax(460px, 484px));
     column-gap: 40px;
     row-gap: 48px;
-  
   }
   
   .place:first-child{
@@ -27,9 +26,7 @@
       margin: 73px 24px 0;
       column-gap: 28px;
     }
-  }
 
-  @media screen and (max-width: 960px) {
     .place:first-child{
       margin-top: 88px;
   }
@@ -46,12 +43,11 @@
        
     .place{
       grid-template-columns: minmax(288px, 320px);
-      margin: 50px 16px 0;
+      margin: 50px 0;
       column-gap: 0;
       row-gap: 32px;
     }
-}
-@media screen and (max-width: 715px) {
+    
     .place:first-child{
         margin-top: 64px;
     }

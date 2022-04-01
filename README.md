@@ -10,5 +10,5 @@
 
 **GitHub**
 
-* [Ссылка на GitHub](https://github.com/Samokhvalov0137/russian-travel.git)
+* [Ссылка на GitHub](https://samokhvalov0137.github.io/russian-travel/)
 
