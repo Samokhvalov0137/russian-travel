@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0б user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-  <div class="root">
+<body class="root">
+  <div class="page">
     <header class="header">
         <div class="header__logo"></div>
         <ul class="header__links">
@@ -38,7 +38,7 @@
           <ul class="intro__list">
             <li class="intro__object">Часовых поясов <span class="intro__number">11</span></li>
             <li class="intro__object">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
-            <li class="intro__object">Объектов культурного наследия ЮНЕСКО <span class="intro__number">6</span></li>
+            <li class="intro__object">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
             <li class="intro__object">Природных заповедников <span class="intro__number">105</span></li>
             <li class="intro__object">Аэропортов <span class="intro__number">241</span></li>
           </ul>
@@ -167,16 +167,18 @@
     </main>
 
     <footer class="footer">
-        <nav class="footer__rows">
-            <ul class="footer__row">
+        <div class="footer__rows">
+          <nav class="footer_nav">
+          <ul class="footer__row">
                 <li class="footer__links"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
                 <li class="footer__links"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
                 <li class="footer__links"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
                 <li class="footer__links"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
                 <li class="footer__links"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
             </ul>
-            <p class="footer__copyright">&copy; 2022. Vlad Samokhvalov</p>
           </nav>
+            <p class="footer__copyright">&copy; 2022. Vlad Samokhvalov</p>
+        </div>
     </footer>
   </div>
 </body>
